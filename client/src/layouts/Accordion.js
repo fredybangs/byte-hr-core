@@ -22,7 +22,7 @@ const Accordion = (props) => {
 
 	return (
 		<div className='accordion-section'>
-			<Button variant='outlined' color='red' onClick={toogleActive}>
+			<Button variant='outlined' color='primary' onClick={toogleActive}>
 				<p style={titleStyle}>{props.title}</p>
 				<span className={active ? 'accordion-icon rotate' : 'accordion-icon'}>
 					>
