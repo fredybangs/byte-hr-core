@@ -1,7 +1,7 @@
 {
-	"name": "byte-api",
+	"name": "client",
 	"version": "1.0.0",
-	"description": "Online Shop",
+	"description": "Byte HRMS",
 	"main": "index.js",
 	"engines": {
 		"node": "12.16.1",
