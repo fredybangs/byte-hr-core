@@ -1,0 +1,41 @@
+.accordion-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.accordion-title {
+	background-color: transparent;
+	color: #1976d2;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	border: none;
+	outline: none;
+	transition: background-color 0.6s ease;
+}
+
+.accordion-title:hover,
+.active {
+	background-color: transparent;
+}
+
+.accordion-icon {
+	margin-left: auto;
+	transition: transform 0.6s ease;
+}
+
+.rotate {
+	transform: rotate(90deg);
+}
+
+.accordion-content {
+	text-align: left;
+	overflow: hidden;
+	transition: max-height 0.6s ease;
+}
+
+.accordion-text {
+	font-weight: 40px;
+	font-size: 20px;
+	padding-bottom: 32px;
+}
