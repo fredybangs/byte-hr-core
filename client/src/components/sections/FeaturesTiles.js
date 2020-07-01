@@ -61,6 +61,109 @@ const FeaturesTiles = ({
 								<div className='features-tiles-item-header'>
 									<div className='features-tiles-item-image mb-16'>
 										<Image
+											src={require('./../../assets/images/payroll.svg')}
+											alt='Features tile icon 05'
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className='features-tiles-item-content'>
+									<h4 className='mt-0 mb-8'>Payroll Management</h4>
+									<p className='m-0 text-sm'>
+										The payroll module in Byte HRMS handles all requirements
+										relating to accounting and management of an employee's
+										payroll such as the ability to set and define pay components
+										such as additions, deductions and tax tables, ability to
+										process payslip for a single employee or a batch of
+										employees and more.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div className='tiles-item reveal-from-bottom'>
+							<div className='tiles-item-inner'>
+								<div className='features-tiles-item-header'>
+									<div className='features-tiles-item-image mb-16'>
+										<Image
+											src={require('./../../assets/images/management.svg')}
+											alt='Features tile icon 04'
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className='features-tiles-item-content'>
+									<h4 className='mt-0 mb-8'>Performance Management</h4>
+									<p className='m-0 text-sm'>
+										Automating the appraisal process, recording and tracking
+										objectives and targets, this module should incorporate your
+										competence framework, job standards and/or other relevant
+										systems.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div
+							className='tiles-item reveal-from-bottom'
+							data-reveal-delay='200'>
+							<div className='tiles-item-inner'>
+								<div className='features-tiles-item-header'>
+									<div className='features-tiles-item-image mb-16'>
+										<Image
+											src={require('./../../assets/images/working-time.svg')}
+											alt='Features tile icon 05'
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className='features-tiles-item-content'>
+									<h4 className='mt-0 mb-8'>Time and Attendance</h4>
+									<p className='m-0 text-sm'>
+										Alongside payroll, this is probably one of the
+										longest-standing HR automations: the time clock. These days,
+										such systems often incorporate biometric identification to
+										avoid ‘buddy punching’ and will link directly to (or be an
+										integral part of) the workforce management module, with
+										information links to your payroll and accounting software.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div className='tiles-item-inner'>
+							<div className='features-tiles-item-header'>
+								<div className='features-tiles-item-image mb-16'>
+									<Image
+										src={require('./../../assets/images/desk.svg')}
+										alt='Features tile icon 02'
+										width={64}
+										height={64}
+									/>
+								</div>
+							</div>
+							<div className='features-tiles-item-content'>
+								<h4 className='mt-0 mb-8'>Absence and Leave Management</h4>
+								<p className='m-0 text-sm'>
+									Often linked to the time and attendance and workforce
+									management functions, your leave management module is an
+									automated way to allocate, book, approve, track and monitor
+									any absence from the workplace. It may be for vacations,
+									compassionate reasons, illness etc. Request and approval
+									processes should be streamlined and the outcomes incorporated
+									into team calendars where appropriate.
+								</p>
+							</div>
+						</div>
+						<div
+							className='tiles-item reveal-from-bottom'
+							data-reveal-delay='200'>
+							<div className='tiles-item-inner'>
+								<div className='features-tiles-item-header'>
+									<div className='features-tiles-item-image mb-16'>
+										<Image
 											src={require('./../../assets/images/data-security.svg')}
 											alt='Features tile icon 02'
 											width={64}
@@ -130,113 +233,10 @@ const FeaturesTiles = ({
 								</div>
 							</div>
 						</div>
-						<div
-							className='tiles-item reveal-from-bottom'
-							data-reveal-delay='200'>
-							<div className='tiles-item-inner'>
-								<div className='features-tiles-item-header'>
-									<div className='features-tiles-item-image mb-16'>
-										<Image
-											src={require('./../../assets/images/working-time.svg')}
-											alt='Features tile icon 05'
-											width={64}
-											height={64}
-										/>
-									</div>
-								</div>
-								<div className='features-tiles-item-content'>
-									<h4 className='mt-0 mb-8'>Time and Attendance</h4>
-									<p className='m-0 text-sm'>
-										Alongside payroll, this is probably one of the
-										longest-standing HR automations: the time clock. These days,
-										such systems often incorporate biometric identification to
-										avoid ‘buddy punching’ and will link directly to (or be an
-										integral part of) the workforce management module, with
-										information links to your payroll and accounting software.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div className='tiles-item reveal-from-bottom'>
-							<div className='tiles-item-inner'>
-								<div className='features-tiles-item-header'>
-									<div className='features-tiles-item-image mb-16'>
-										<Image
-											src={require('./../../assets/images/management.svg')}
-											alt='Features tile icon 04'
-											width={64}
-											height={64}
-										/>
-									</div>
-								</div>
-								<div className='features-tiles-item-content'>
-									<h4 className='mt-0 mb-8'>Performance Management</h4>
-									<p className='m-0 text-sm'>
-										Automating the appraisal process, recording and tracking
-										objectives and targets, this module should incorporate your
-										competence framework, job standards and/or other relevant
-										systems.
-									</p>
-								</div>
-							</div>
-						</div>
 
 						<div
 							className='tiles-item reveal-from-bottom'
-							data-reveal-delay='200'>
-							<div className='tiles-item-inner'>
-								<div className='features-tiles-item-header'>
-									<div className='features-tiles-item-image mb-16'>
-										<Image
-											src={require('./../../assets/images/payroll.svg')}
-											alt='Features tile icon 05'
-											width={64}
-											height={64}
-										/>
-									</div>
-								</div>
-								<div className='features-tiles-item-content'>
-									<h4 className='mt-0 mb-8'>Payroll Management</h4>
-									<p className='m-0 text-sm'>
-										The payroll module in Byte HRMS handles all requirements
-										relating to accounting and management of an employee's
-										payroll such as the ability to set and define pay components
-										such as additions, deductions and tax tables, ability to
-										process payslip for a single employee or a batch of
-										employees and more.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div
-							className='tiles-item reveal-from-bottom'
-							data-reveal-delay='200'>
-							<div className='tiles-item-inner'>
-								<div className='features-tiles-item-header'>
-									<div className='features-tiles-item-image mb-16'>
-										<Image
-											src={require('./../../assets/images/desk.svg')}
-											alt='Features tile icon 02'
-											width={64}
-											height={64}
-										/>
-									</div>
-								</div>
-								<div className='features-tiles-item-content'>
-									<h4 className='mt-0 mb-8'>Absence and Leave Management</h4>
-									<p className='m-0 text-sm'>
-										Often linked to the time and attendance and workforce
-										management functions, your leave management module is an
-										automated way to allocate, book, approve, track and monitor
-										any absence from the workplace. It may be for vacations,
-										compassionate reasons, illness etc. Request and approval
-										processes should be streamlined and the outcomes
-										incorporated into team calendars where appropriate.
-									</p>
-								</div>
-							</div>
-						</div>
+							data-reveal-delay='200'></div>
 					</div>
 				</div>
 			</div>

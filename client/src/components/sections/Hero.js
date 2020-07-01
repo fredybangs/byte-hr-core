@@ -59,7 +59,7 @@ const Hero = ({
 						<h1
 							className='mt-0 mb-16 reveal-from-bottom'
 							data-reveal-delay='200'>
-							Welcome to <span className='text-color-primary'>Byte ERP</span>
+							Welcome to <span className='text-color-primary'>Byte HRMS</span>
 						</h1>
 						<div className='container-xs'>
 							<p
