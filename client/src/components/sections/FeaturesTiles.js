@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 	const sectionHeader = {
 		title: 'Overview of the Byte HRMS',
 		paragraph:
-			'Byte HRMS encompasses three human resources management functions: Personnel Tracking, HR Organization Setups and Payroll Management. Every organization requires these functions once it has reached a critical mass of employees where manually running payroll and managing employees with spreadsheets becomes too burdensome a task. Each of these functions is as described below',
+			'The function of the human resources department involves tracking employee histories, skills, abilities, salaries, and accomplishments. Replacing certain processes with various levels of HRMS systems can distribute information management responsibilities so that the bulk of information gathering is not delegated strictly to HR. By allowing employees to update personal information and perform other tasks, information is kept more accurate and HR professionals are not bogged down.',
 	};
 
 	return (

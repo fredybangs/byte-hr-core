@@ -65,10 +65,13 @@ const Hero = ({
 							<p
 								className='m-0 mb-32 reveal-from-bottom'
 								data-reveal-delay='400'>
-								Byte ERP is business management software including accounting,
-								human resource management, warehouse management, school
-								management, inventory management and more, being deveoloped by
-								Byte Limited .
+								HR work is more complex and involved today than it ever has
+								been. There’s so much that goes into the management of employee
+								information, which is used for everything from recruiting and
+								hiring to training, evaluations, and so much more. The
+								importance and manpower behind these tasks make it critical for
+								human resources professionals to have HR management software for
+								more efficient management of HR information.
 							</p>
 							<div className='reveal-from-bottom' data-reveal-delay='600'>
 								<ButtonGroup>
