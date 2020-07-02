@@ -16,7 +16,9 @@ const config = require('./config/key');
 
 const mongoose = require('mongoose');
 
-var url = process.env.MONGO_URI || 'mongodb://localhost/byte';
+var url =
+	process.env.MONGO_URI ||
+	'mongodb+srv://ElRey:TNQP8uhCZ8erhAXT@backend-boilerplate-08vqw.mongodb.net/<dbname>?retryWrites=true&w=majority';
 const connect = mongoose
 	.connect(url, {
 		useNewUrlParser: true,
